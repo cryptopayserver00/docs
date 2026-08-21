@@ -11,6 +11,9 @@ cd "$APP_DIR"
 echo "==> git pull"
 git pull
 
+echo "==> remove export zip file"
+rm -f export.zip
+
 echo "==> mintlify export"
 mintlify export
 

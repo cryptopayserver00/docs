@@ -14,8 +14,11 @@ git pull
 echo "==> remove export zip file"
 rm -f export.zip
 
+echo "==> remove docs"
+rm -rf "$APP_DIR_DOCS"
+
 echo "==> mintlify export"
-NODE_OPTIONS="--max-old-space-size=2048" mintlify export
+mintlify export
 
 echo "==> unzip docs"
 unzip export.zip -d "$APP_DIR_DOCS"

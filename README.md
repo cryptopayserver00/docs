@@ -1,0 +1,1 @@
+Docs of Cryptopayserver: https://docs.cryptopayserver.online

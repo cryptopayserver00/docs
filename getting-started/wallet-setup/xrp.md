@@ -1,0 +1,6 @@
+---
+title: "XRP"
+description: "XRP"
+---
+
+The XRP Ledger (XRPL) is a decentralized, public blockchain led by a global community of businesses and developers looking to solve problems and create value.

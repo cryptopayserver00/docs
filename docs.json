@@ -1,0 +1,142 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "cryptopayserver",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Learn",
+        "pages": [
+          "learn/introduction",
+          "learn/try-it-out",
+          "learn/walkthrough",
+          "learn/use-case",
+          "learn/vs-others"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "getting-started/register-account",
+          "getting-started/create-a-store",
+          {
+            "group": "(3) Wallet Setup",
+            "pages": [
+              "getting-started/wallet-setup/index",
+              "getting-started/wallet-setup/connect-wallet",
+              "getting-started/wallet-setup/create-wallet",
+              "getting-started/wallet-setup/bitcoin",
+              "getting-started/wallet-setup/bitcoin-lightning-network",
+              "getting-started/wallet-setup/litecoin",
+              "getting-started/wallet-setup/xrp",
+              "getting-started/wallet-setup/bitcoin-cash",
+              "getting-started/wallet-setup/ethereum",
+              "getting-started/wallet-setup/tron",
+              "getting-started/wallet-setup/solana",
+              "getting-started/wallet-setup/bsc",
+              "getting-started/wallet-setup/arbitrum",
+              "getting-started/wallet-setup/arbitrum-nova",
+              "getting-started/wallet-setup/avalanche",
+              "getting-started/wallet-setup/polygon",
+              "getting-started/wallet-setup/base",
+              "getting-started/wallet-setup/optimism",
+              "getting-started/wallet-setup/ton"
+            ]
+          },
+          "getting-started/what-next"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/dashboard",
+          "features/wallet",
+          "features/invoices",
+          "features/payment-requests",
+          {
+            "group": "Pull Payments",
+            "pages": [
+              "features/pull-payments/index",
+              "features/pull-payments/refunds"
+            ]
+          },
+          "features/payouts",
+          "features/plugins",
+          "features/reporting"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": ["integrations/shopify", "integrations/custom-integration"]
+      },
+      {
+        "group": "Plugins",
+        "pages": ["plugins/index"]
+      },
+      {
+        "group": "Support And Community",
+        "pages": [
+          "support-and-community/trouble-shooting",
+          "support-and-community/support",
+          "support-and-community/community"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Home",
+          "href": "/",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Main Site",
+          "href": "https://cryptopayserver.online",
+          "icon": "book-open-cover"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:viper.aur123@gmail.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Main Site",
+      "href": "https://cryptopayserver.online"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/ZhongMingYang00",
+      "github": "https://github.com/cryptopayserver00/cryptopayserver",
+      "telegram": "https://t.me/cryptopayserver"
+    }
+  }
+}

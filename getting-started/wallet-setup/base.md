@@ -1,0 +1,6 @@
+---
+title: "Base"
+description: "Base"
+---
+
+Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.
